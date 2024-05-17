@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(124, 192, 255);
+    margin: 15px;
+    border: 4px solid black;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 15px;
+}
+nav {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+nav button {
+    width: 150px;
+    height: 80px;
+}
+nav button:hover {
+    background-color: brown;
+    color: bisque;
+}
+.subtitulo {
+    margin-top: 15px;
+    padding-left: 5%;
+    font-size: 38px;
+}
+.subtitulo-puntos {
+    margin: 15px;
+    background-color: rgb(184, 96, 96);
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+.puntos-de-interes {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    padding-left: 40%;
+    font-size: 24px;
+}
+
+.puntos-de-interes a {
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+}
+.puntos-de-interes a:hover {
+    font-size: 42px;
+    color: rgb(119, 0, 255);
+}
+
+.descripcion-puntos {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 10px double black;
+}
+.galeria { 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.parrafo-galeria {
+    text-align: center;
+    font-size: 32px;
+    text-decoration: dashed;
+    color: azure;
+}
+.galeria img{
+    margin: 15px;
+    border: 4px solid yellowgreen;
+}
+.galeria img:hover {
+    margin: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(205, 50, 50);
+}
+.gastronomia {
+    background-color: rgb(255, 229, 194);
+    padding: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 3px solid black;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.gastronomia h3 {
+    text-align: center;
+}
+.gastronomia p {
+    text-align: center;
+}
+
+.piepagina {
+    margin: 5%;
+    border: 3px solid black;
+    font-size: 24px;
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    
+}
